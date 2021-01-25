@@ -5,6 +5,7 @@
 // @description  Removes posts that contain chinese characters from the 'newest' tab in IndieHackers.
 // @author       Robi
 // @match        https://www.indiehackers.com/newest
+// @match        https://indiehackers.com/newest
 // @grant        none
 // ==/UserScript==
 
@@ -19,4 +20,3 @@ window.onload = (event) => {
     }
     },500)
 };
-
